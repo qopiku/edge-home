@@ -1,13 +1,47 @@
-# :house:  Home
-Simple customizable new tab / startup page for browsers. [Demo ](https://aufarijaal.github.io/home/)
+# Edge Home :house_with_garden:
 
-### **Preview**
-- Light
-![preview light](./Preview-light.png)
-- dark
-![preview dark](./Preview-dark.png)
+Beautiful browser homepage extension with bookmarked link list.
 
-### **How to use**
-1. Download this repository [here.](https://github.com/aufarijaal/home/archive/refs/heads/master.zip)
-2. extract it
-3. set your homepage or new tab page to this ``index.html`` file
+### Supported
+
+- Google Chrome - Tested on **Version 90.0.4430.72 (Official Build) (64-bit)**
+- Microsoft Edge - Tested on **Version 91.0.852.0 (Official build) dev (64-bit)**
+- Brave - Not tested yet
+- Other Chromium derivatives..
+
+## Installation
+
+1. Download the `extension.crx` file [here](./packed/extension.crx)
+2. Open extension manager (each browser)
+3. Activate development mode (if needed)
+4. Drag & drop `extension.crx` file into browser.
+5. Press "Add extension" when a warning appears.
+
+## Development
+
+1. Clone this repository
+   ```
+   git clone https://github.com/sProDev/edge-home.git
+   ```
+2. Change current working directory
+   ```
+   cd edge-home
+   ```
+3. Install all dependencies
+   ```
+   npm install
+   ```
+4. Build `crx` file
+   ```
+   npm run pack
+   ```
+
+## Thanks to
+
+[aufarijaal](https://github.com/aufarijaal/home) for the template.
+
+> Please contact me if you mind or whatever :grin:
+
+## License
+
+Code licensed under [Apache 2.0 License](./LICENSE).

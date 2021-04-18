@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Edge Homepage",
+    "short_name": "Edge Home",
+    "version": "0.0.1",
+    "description": "Beautiful browser homepage with bookmarked link list.",
+    "homepage_url": "https://github.com/sProDev/edge-home",
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "minimum_chrome_version": "26.0.1428",
+    "chrome_url_overrides": {
+        "newtab": "homepage/home.html"
+    },
+    "permissions": [
+        "storage",
+        "bookmarks"
+    ],
+    "web_accessible_resources": [
+        "blank.html"
+    ]
+}

@@ -1,15 +1,37 @@
 {
-  "name": "home",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "sass-autoprefixer": "^1.0.1"
-  }
+    "name": "edge-home",
+    "version": "0.0.1",
+    "description": "Beautiful browser homepage with bookmarked link list.",
+    "scripts": {
+        "pack": "run-s pack:*",
+        "pack:rm": "rm packed/extension.crx",
+        "pack:zip": "cd src; zip -r ../packed/extension.zip ./*; cd ..",
+        "pack:build": "cat packed/extension.zip | crx3 -p extension.pem -o packed/extension.crx",
+        "pack:clean": "rm packed/extension.zip"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sProDev/edge-home.git"
+    },
+    "keywords": [
+        "chrome-extension",
+        "edge-extension",
+        "browser",
+        "browser-homepage",
+        "homepage",
+        "new-tab"
+    ],
+    "author": "sooluh",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/sProDev/edge-home/issues"
+    },
+    "homepage": "https://github.com/sProDev/edge-home#readme",
+    "dependencies": {
+        "sass-autoprefixer": "^1.0.1"
+    },
+    "devDependencies": {
+        "crx3": "^1.1.3",
+        "npm-run-all": "^4.1.5"
+    }
 }
