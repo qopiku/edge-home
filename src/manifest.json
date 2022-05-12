@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Edge Homepage",
   "short_name": "Edge Home",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Beautiful browser homepage with bookmarked link list",
   "offline_enabled": true,
   "homepage_url": "https://github.com/sProDev/edge-home",
