@@ -20,20 +20,22 @@ Beautiful browser homepage extension with bookmarked link list.
 ## Development
 
 1. Clone this repository
+
    ```
    git clone https://github.com/sProDev/edge-home.git
-   ```
-2. Change current working directory
-   ```
    cd edge-home
    ```
-3. Install all dependencies
+
+2. Install all dependencies
+
    ```
-   npm install
+   yarn install
    ```
-4. Build `crx` file
+
+3. Build `crx` file
+
    ```
-   npm run pack
+   yarn build
    ```
 
 ## Thanks to

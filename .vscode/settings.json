@@ -1,11 +1,4 @@
 {
-    "sassVariablesHelper.route": "../src/homepage/scss/__tailwind-colors.scss",
-    "liveServer.settings.port": 5501,
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/src/homepage/css"
-        }
-    ]
+  "sassVariablesHelper.route": "../src/homepage/scss/__tailwind-colors.scss",
+  "liveServer.settings.port": 5501
 }
