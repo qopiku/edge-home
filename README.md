@@ -11,7 +11,7 @@ Beautiful browser homepage extension with bookmarked link list.
 
 ## Installation
 
-1. Download the `extension.crx` file [here](./packed/extension.crx)
+1. Download the `extension.crx` file [here](./packed/edge-home.crx)
 2. Open extension manager (each browser)
 3. Activate development mode (if needed)
 4. Drag & drop `extension.crx` file into browser.
