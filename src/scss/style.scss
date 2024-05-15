@@ -93,7 +93,6 @@ label {
 }
 
 .top {
-  // border: $border;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,15 +137,15 @@ label {
 
 .links-container {
   display: grid;
-  grid-template-columns: repeat(10, max-content);
-  place-content: center;
-  row-gap: 0.5rem;
-  column-gap: 0.5rem;
-  flex-grow: 0.2;
+  justify-content: center;
+  align-content: center;
+  gap: 0.5rem;
+  grid-auto-flow: column;
 }
 
 .links {
   @include link-style;
+
   position: relative;
   padding: 0.6vw 1vw;
   transition: background 300ms ease;
